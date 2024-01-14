@@ -13,5 +13,3 @@ class MapService
     end
   end
 end
-
-# key=#{Rails.application.credentials.mapquest_api[:key]

@@ -13,6 +13,3 @@ class WeatherService
     end
   end
 end
-
-
-# key = Rails.application.credentials.weather_api[:key] 
