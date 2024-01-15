@@ -1,8 +1,8 @@
 class ForecastSerializer
   attr_reader :error_object
 
-  def initialize(weather_service_response)
-    @forecast = weather_service_response
+  def initialize(location)
+    @forecast = WeatherService.forecast_at_location(location, 5)
   end
 
   def serialize_json

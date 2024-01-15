@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe ForecastSerializer do
   it 'formats data from the WeatherService response', :vcr do
-    response = ForecastSerializer.new(WeatherService.forecast_at_location({lat: '33.95', lon: '-81.12'}, 5))
+    response = ForecastSerializer.new({lat: '33.95', lon: '-81.12'})
     output = response.serialize_json
     expect(output).to have_key(:data)
     expect(output[:data]).to be_an(Hash)
