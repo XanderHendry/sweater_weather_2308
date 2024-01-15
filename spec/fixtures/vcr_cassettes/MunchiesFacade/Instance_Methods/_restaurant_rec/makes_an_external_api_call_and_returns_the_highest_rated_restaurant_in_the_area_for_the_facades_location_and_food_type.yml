@@ -1,0 +1,83 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.yelp.com/v3/businesses/search?limit=1&location=Denver,%20CO&sort_by=best_match&term=Pizza
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer 6HGslDRM_fxSwKsjlpB9c6gHkAISDxoZJnCr3Ey7EFCqSAZY9azTykynAkvJBGRGDQ8HDDVhgpSiPMpJ165bY7a3UVey9voUjtTVwwdng9bhIFhnSVU65O5I51mlZXYx
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Ratelimit-Remaining:
+      - '488.0'
+      Ratelimit-Resettime:
+      - '2024-01-16T00:00:00+00:00'
+      Server:
+      - envoy
+      X-Routing-Service:
+      - routing-main--useast1-74f644dc4b-tj4d6; site=public_api_v3
+      X-Zipkin-Id:
+      - 6f61653f92c18d50
+      Ratelimit-Dailylimit:
+      - '500.0'
+      X-B3-Sampled:
+      - '0'
+      X-Mode:
+      - ro
+      X-Proxied:
+      - 10-65-130-183-useast1bprod
+      X-Extlb:
+      - 10-65-130-183-useast1bprod
+      Cache-Control:
+      - max-age=0, no-store, private, no-transform
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Mon, 15 Jan 2024 17:56:49 GMT
+      Via:
+      - 1.1 varnish
+      X-Served-By:
+      - cache-pdk-kfty2130065-PDK
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      Vary:
+      - Accept-Encoding
+      Alt-Svc:
+      - h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"businesses": [{"id": "VFACYV_lGv9y4FV-_1m4Ig", "alias": "brooklyns-finest-pizza-denver-7",
+        "name": "Brooklyn''s Finest Pizza", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/6cPY-ZzCjPdyI_F_zOtsHA/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/brooklyns-finest-pizza-denver-7?adjust_creative=x1BJA_sLJUWl4R75aPkiEw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=x1BJA_sLJUWl4R75aPkiEw",
+        "review_count": 524, "categories": [{"alias": "pizza", "title": "Pizza"},
+        {"alias": "italian", "title": "Italian"}, {"alias": "sandwiches", "title":
+        "Sandwiches"}], "rating": 4.5, "coordinates": {"latitude": 39.7875680710371,
+        "longitude": -105.035032358198}, "transactions": ["pickup", "delivery"], "price":
+        "$$", "location": {"address1": "5007 Lowell Blvd", "address2": "", "address3":
+        "", "city": "Denver", "zip_code": "80221", "country": "US", "state": "CO",
+        "display_address": ["5007 Lowell Blvd", "Denver, CO 80221"]}, "phone": "+13034770066",
+        "display_phone": "(303) 477-0066", "distance": 8009.779308214767}], "total":
+        2100, "region": {"center": {"longitude": -104.97024536132812, "latitude":
+        39.73552421220229}}}'
+  recorded_at: Mon, 15 Jan 2024 17:56:49 GMT
+recorded_with: VCR 6.2.0
