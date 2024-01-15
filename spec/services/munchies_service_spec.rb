@@ -4,8 +4,8 @@ RSpec.describe MunchiesService do
   context "class methods" do
     context '#restaurant_rec', :vcr do
       it 'returns weather info in the area of the given lat+lon', :vcr do 
-        forecast = MunchiesService.restaurant_rec('Denver, CO', 'Pizza')
-        expect(forecast[:businesses].first[:name]).to eq("Brooklyn's Finest Pizza")
+        restaurant = MunchiesService.restaurant_rec('Denver, CO', 'Pizza')
+        expect(restaurant[:businesses].first[:name]).to eq("Brooklyn's Finest Pizza")
       end
     end
     context "#get_url" do

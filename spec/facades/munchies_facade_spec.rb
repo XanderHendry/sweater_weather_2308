@@ -10,7 +10,7 @@ RSpec.describe MunchiesFacade do
       end
     end
     describe '#weather_data' do
-      it 'makes an external api call and returns current weather for the facades location' do
+      it 'makes external api calls and returns current weather for the facades location' do
         facade = MunchiesFacade.new('Denver, CO', 'Pizza')
         weather = facade.weather_data
         expect(weather).to have_key(:locations)
