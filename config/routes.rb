@@ -8,6 +8,7 @@ Rails.application.routes.draw do
     namespace :v0 do
       get 'forecast', to: 'forecasts#by_city'
       resources :users, only: [:create]
+      post 'sessions', to: 'sessions#create'
     end
   end
   # get '/api/v0/forecast', to: 'api/v0/forecasts#by_city'
