@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe 'User Endpoints' do
+RSpec.describe 'Users Endpoints' do
   describe 'Register as a new User' do
     describe 'POST /api/v0/users' do
       describe 'Happy Path' do
