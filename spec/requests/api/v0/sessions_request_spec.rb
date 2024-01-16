@@ -28,7 +28,6 @@ RSpec.describe 'Sessions Endpoints' do
             password: "Incorrect Password"
           }
           post '/api/v0/sessions', params: login.to_json, headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' } 
-          
           expect(response.status).to eq(401)
           expect(response).to have_http_status(:unauthorized)
           results = JSON.parse(response.body, symbolize_names: true)
