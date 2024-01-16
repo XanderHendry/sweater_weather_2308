@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe UsersSerializer do
-  it 'formats data from the WeatherService response', :vcr do
+  it 'formats data from a User', :vcr do
     user = build(:user)
     user.save
     output = UsersSerializer.new(user).serializable_hash
