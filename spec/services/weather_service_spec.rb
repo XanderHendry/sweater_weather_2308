@@ -11,6 +11,15 @@ RSpec.describe WeatherService do
         expect(forecast[:forecast][:forecastday].count).to eq(5)
       end
     end
+    context '#weather_at_eta', :vcr do
+    it 'returns a forecast for a specified destination and date' do
+      forecast = WeatherService.forecast_at_location({lat: '33.95', lon: '-81.12'}, Date.tomorrow)
+      expect(forecast[:location][:region]).to eq("South Carolina")
+        expect(forecast[:current]).to be_a(Hash)
+        expect(forecast[:forecast][:forecastday]).to be_an(Array)
+        expect(forecast[:forecast][:forecastday].count).to eq(1)
+    end
+  end
     context "#get_url" do
       it "returns parsed JSON data", :vcr do 
         parsed_response = WeatherService.get_url("/v1/forecast.json?q=33.95,-81.12")
