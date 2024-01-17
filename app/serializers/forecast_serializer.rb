@@ -10,7 +10,7 @@ class ForecastSerializer
       "data": {}
     }
     serialized_hash[:data] = {
-      "id": nil,
+      "id": 'Null',
       "type": 'forecast',
       "attributes": {
         "current_weather": {

@@ -9,7 +9,7 @@ RSpec.describe ForecastSerializer do
     
     weather_data = output[:data]
     expect(weather_data).to have_key(:id)
-    expect(weather_data[:id]).to be_nil
+    expect(weather_data[:id]).to eq('Null')
     expect(weather_data).to have_key(:type)
     expect(weather_data[:type]).to eq('forecast')
     expect(weather_data).to have_key(:attributes)

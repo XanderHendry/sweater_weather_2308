@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://api.weatherapi.com/v1/forecast.json?key=WEATHER_API_KEY&q=33.95,-81.12
+    uri: http://api.weatherapi.com/v1/forecast.json?days=2024-01-18&key=WEATHER_API_KEY&q=33.95,-81.12
     body:
       encoding: US-ASCII
       string: ''
@@ -45,7 +45,7 @@ http_interactions:
       X-Weatherapi-Qpm-Left:
       - '4999975'
       X-Varnish:
-      - '138019816'
+      - '674366432'
       Cdn-Proxyver:
       - '1.04'
       Cdn-Requestpullsuccess:
@@ -55,17 +55,17 @@ http_interactions:
       Cdn-Cachedat:
       - 01/17/2024 03:04:42
       Cdn-Edgestorageid:
-      - '718'
+      - '871'
       Cdn-Status:
       - '200'
       Cdn-Requestid:
-      - '00815c90aa3a3b8fd4dcd7cb98f07a29'
+      - d1ecba59466aca1d317f00c24a7be6d5
       Cdn-Cache:
       - EXPIRED
     body:
       encoding: ASCII-8BIT
       string: '{"location":{"name":"Cayce","region":"South Carolina","country":"United
-        States of America","lat":33.95,"lon":-81.12,"tz_id":"America/New_York","localtime_epoch":1705460656,"localtime":"2024-01-16
+        States of America","lat":33.95,"lon":-81.12,"tz_id":"America/New_York","localtime_epoch":1705460682,"localtime":"2024-01-16
         22:04"},"current":{"last_updated_epoch":1705460400,"last_updated":"2024-01-16
         22:00","temp_c":6.1,"temp_f":43.0,"is_day":0,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/night/122.png","code":1009},"wind_mph":9.4,"wind_kph":15.1,"wind_degree":320,"wind_dir":"NW","pressure_mb":1015.0,"pressure_in":29.98,"precip_mm":0.0,"precip_in":0.0,"humidity":53,"cloud":100,"feelslike_c":3.6,"feelslike_f":38.5,"vis_km":16.0,"vis_miles":9.0,"uv":1.0,"gust_mph":9.8,"gust_kph":15.8},"forecast":{"forecastday":[{"date":"2024-01-16","date_epoch":1705363200,"day":{"maxtemp_c":10.0,"maxtemp_f":50.1,"mintemp_c":3.1,"mintemp_f":37.6,"avgtemp_c":8.1,"avgtemp_f":46.5,"maxwind_mph":13.4,"maxwind_kph":21.6,"totalprecip_mm":1.8,"totalprecip_in":0.07,"totalsnow_cm":0.0,"avgvis_km":8.9,"avgvis_miles":5.0,"avghumidity":83,"daily_will_it_rain":1,"daily_chance_of_rain":96,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
         rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"uv":1.0},"astro":{"sunrise":"07:30
