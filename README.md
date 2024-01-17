@@ -1,8 +1,8 @@
 # README
 
-#Sweater Weather - API Only
+# Sweater Weather - API Only
 ---
-###End Points:
+### End Points:
 
 ```
   get '/api/v0/forecasts?location=QUERY'
