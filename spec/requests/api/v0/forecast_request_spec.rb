@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe 'Forecast Endpoints' do
-  describe 'Retrieve Weather for a city (/api/v0/vendors/forecast?location=query)' do
+  describe 'Retrieve Weather for a city (/api/v0/vendors/forecast?location=query)', :vcr do
     it 'retrieves a 5 day forecast for the given city', :vcr do
       get '/api/v0/forecast?location=cincinatti,oh'
 

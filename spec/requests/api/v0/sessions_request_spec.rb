@@ -4,7 +4,7 @@ RSpec.describe 'Sessions Endpoints' do
   describe 'Register as a new User' do
     describe 'POST /api/v0/sessions', :vcr do
       describe 'Happy Path' do
-        it 'allows a registered User to log in and creates a new Session' do
+        it 'allows a registered User to log in and creates a new Session', :vcr do
           user = create(:user)
           login = {
             email: user.email,
