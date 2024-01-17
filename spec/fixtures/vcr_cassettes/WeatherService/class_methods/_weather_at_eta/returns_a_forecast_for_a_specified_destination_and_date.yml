@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 17 Jan 2024 02:23:58 GMT
+      - Wed, 17 Jan 2024 03:04:42 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -29,7 +29,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-IL1-1069
+      - BunnyCDN-IL1-718
       Cdn-Pullzone:
       - '93447'
       Cdn-Uid:
@@ -45,7 +45,7 @@ http_interactions:
       X-Weatherapi-Qpm-Left:
       - '4999975'
       X-Varnish:
-      - '886278188'
+      - '674366432'
       Cdn-Proxyver:
       - '1.04'
       Cdn-Requestpullsuccess:
@@ -53,21 +53,21 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Cachedat:
-      - 01/17/2024 02:23:58
+      - 01/17/2024 03:04:42
       Cdn-Edgestorageid:
       - '871'
       Cdn-Status:
       - '200'
       Cdn-Requestid:
-      - 1607ef5c755db2cdfbe8dc33e5404980
+      - d1ecba59466aca1d317f00c24a7be6d5
       Cdn-Cache:
-      - MISS
+      - EXPIRED
     body:
       encoding: ASCII-8BIT
       string: '{"location":{"name":"Cayce","region":"South Carolina","country":"United
-        States of America","lat":33.95,"lon":-81.12,"tz_id":"America/New_York","localtime_epoch":1705458199,"localtime":"2024-01-16
-        21:23"},"current":{"last_updated_epoch":1705457700,"last_updated":"2024-01-16
-        21:15","temp_c":6.1,"temp_f":43.0,"is_day":0,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/night/122.png","code":1009},"wind_mph":9.4,"wind_kph":15.1,"wind_degree":320,"wind_dir":"NW","pressure_mb":1015.0,"pressure_in":29.98,"precip_mm":0.0,"precip_in":0.0,"humidity":53,"cloud":100,"feelslike_c":3.8,"feelslike_f":38.9,"vis_km":16.0,"vis_miles":9.0,"uv":1.0,"gust_mph":13.9,"gust_kph":22.3},"forecast":{"forecastday":[{"date":"2024-01-16","date_epoch":1705363200,"day":{"maxtemp_c":10.0,"maxtemp_f":50.1,"mintemp_c":3.1,"mintemp_f":37.6,"avgtemp_c":8.1,"avgtemp_f":46.5,"maxwind_mph":13.4,"maxwind_kph":21.6,"totalprecip_mm":1.8,"totalprecip_in":0.07,"totalsnow_cm":0.0,"avgvis_km":8.9,"avgvis_miles":5.0,"avghumidity":83,"daily_will_it_rain":1,"daily_chance_of_rain":96,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
+        States of America","lat":33.95,"lon":-81.12,"tz_id":"America/New_York","localtime_epoch":1705460682,"localtime":"2024-01-16
+        22:04"},"current":{"last_updated_epoch":1705460400,"last_updated":"2024-01-16
+        22:00","temp_c":6.1,"temp_f":43.0,"is_day":0,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/night/122.png","code":1009},"wind_mph":9.4,"wind_kph":15.1,"wind_degree":320,"wind_dir":"NW","pressure_mb":1015.0,"pressure_in":29.98,"precip_mm":0.0,"precip_in":0.0,"humidity":53,"cloud":100,"feelslike_c":3.6,"feelslike_f":38.5,"vis_km":16.0,"vis_miles":9.0,"uv":1.0,"gust_mph":9.8,"gust_kph":15.8},"forecast":{"forecastday":[{"date":"2024-01-16","date_epoch":1705363200,"day":{"maxtemp_c":10.0,"maxtemp_f":50.1,"mintemp_c":3.1,"mintemp_f":37.6,"avgtemp_c":8.1,"avgtemp_f":46.5,"maxwind_mph":13.4,"maxwind_kph":21.6,"totalprecip_mm":1.8,"totalprecip_in":0.07,"totalsnow_cm":0.0,"avgvis_km":8.9,"avgvis_miles":5.0,"avghumidity":83,"daily_will_it_rain":1,"daily_chance_of_rain":96,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Patchy
         rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png","code":1063},"uv":1.0},"astro":{"sunrise":"07:30
         AM","sunset":"05:39 PM","moonrise":"11:05 AM","moonset":"11:46 PM","moon_phase":"Waxing
         Crescent","moon_illumination":26,"is_moon_up":1,"is_sun_up":0},"hour":[{"time_epoch":1705381200,"time":"2024-01-16
@@ -99,8 +99,8 @@ http_interactions:
         18:00","temp_c":6.9,"temp_f":44.4,"is_day":0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":8.3,"wind_kph":13.3,"wind_degree":283,"wind_dir":"WNW","pressure_mb":1012.0,"pressure_in":29.89,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":74,"cloud":16,"feelslike_c":4.2,"feelslike_f":39.6,"windchill_c":4.2,"windchill_f":39.6,"heatindex_c":6.9,"heatindex_f":44.4,"dewpoint_c":3.1,"dewpoint_f":37.6,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":11.7,"gust_kph":18.8,"uv":1.0,"short_rad":73.18,"diff_rad":41.9},{"time_epoch":1705449600,"time":"2024-01-16
         19:00","temp_c":6.2,"temp_f":43.1,"is_day":0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":7.6,"wind_kph":12.2,"wind_degree":273,"wind_dir":"W","pressure_mb":1013.0,"pressure_in":29.91,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":77,"cloud":23,"feelslike_c":3.4,"feelslike_f":38.2,"windchill_c":3.4,"windchill_f":38.2,"heatindex_c":6.2,"heatindex_f":43.1,"dewpoint_c":2.3,"dewpoint_f":36.1,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":12.4,"gust_kph":19.9,"uv":1.0,"short_rad":66.79,"diff_rad":37.82},{"time_epoch":1705453200,"time":"2024-01-16
         20:00","temp_c":5.3,"temp_f":41.5,"is_day":0,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/119.png","code":1006},"wind_mph":8.1,"wind_kph":13.0,"wind_degree":302,"wind_dir":"WNW","pressure_mb":1014.0,"pressure_in":29.94,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":77,"cloud":82,"feelslike_c":2.6,"feelslike_f":36.7,"windchill_c":2.6,"windchill_f":36.7,"heatindex_c":5.3,"heatindex_f":41.5,"dewpoint_c":1.9,"dewpoint_f":35.3,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":12.1,"gust_kph":19.4,"uv":1.0,"short_rad":60.4,"diff_rad":33.74},{"time_epoch":1705456800,"time":"2024-01-16
-        21:00","temp_c":6.1,"temp_f":43.0,"is_day":0,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/night/122.png","code":1009},"wind_mph":9.4,"wind_kph":15.1,"wind_degree":320,"wind_dir":"NW","pressure_mb":1015.0,"pressure_in":29.98,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":53,"cloud":100,"feelslike_c":1.6,"feelslike_f":34.9,"windchill_c":1.6,"windchill_f":34.9,"heatindex_c":4.5,"heatindex_f":40.0,"dewpoint_c":0.5,"dewpoint_f":32.8,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":16.0,"vis_miles":9.0,"gust_mph":13.9,"gust_kph":22.3,"uv":1.0,"short_rad":30.2,"diff_rad":16.87},{"time_epoch":1705460400,"time":"2024-01-16
-        22:00","temp_c":3.8,"temp_f":38.8,"is_day":0,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/119.png","code":1006},"wind_mph":7.4,"wind_kph":11.9,"wind_degree":32,"wind_dir":"NNE","pressure_mb":1016.0,"pressure_in":30.0,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":73,"cloud":76,"feelslike_c":0.6,"feelslike_f":33.1,"windchill_c":0.6,"windchill_f":33.1,"heatindex_c":3.8,"heatindex_f":38.8,"dewpoint_c":-0.6,"dewpoint_f":30.9,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":9.8,"gust_kph":15.8,"uv":1.0,"short_rad":15.1,"diff_rad":8.43},{"time_epoch":1705464000,"time":"2024-01-16
+        21:00","temp_c":4.5,"temp_f":40.0,"is_day":0,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/night/122.png","code":1009},"wind_mph":6.7,"wind_kph":10.8,"wind_degree":11,"wind_dir":"NNE","pressure_mb":1015.0,"pressure_in":29.98,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":76,"cloud":94,"feelslike_c":1.6,"feelslike_f":34.9,"windchill_c":1.6,"windchill_f":34.9,"heatindex_c":4.5,"heatindex_f":40.0,"dewpoint_c":0.5,"dewpoint_f":32.8,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":9.1,"gust_kph":14.7,"uv":1.0,"short_rad":30.2,"diff_rad":16.87},{"time_epoch":1705460400,"time":"2024-01-16
+        22:00","temp_c":6.1,"temp_f":43.0,"is_day":0,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/night/122.png","code":1009},"wind_mph":9.4,"wind_kph":15.1,"wind_degree":320,"wind_dir":"NW","pressure_mb":1015.0,"pressure_in":29.98,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":53,"cloud":100,"feelslike_c":0.6,"feelslike_f":33.1,"windchill_c":0.6,"windchill_f":33.1,"heatindex_c":3.8,"heatindex_f":38.8,"dewpoint_c":-0.6,"dewpoint_f":30.9,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":16.0,"vis_miles":9.0,"gust_mph":9.8,"gust_kph":15.8,"uv":1.0,"short_rad":15.1,"diff_rad":8.43},{"time_epoch":1705464000,"time":"2024-01-16
         23:00","temp_c":2.9,"temp_f":37.2,"is_day":0,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png","code":1003},"wind_mph":8.7,"wind_kph":14.0,"wind_degree":30,"wind_dir":"NNE","pressure_mb":1017.0,"pressure_in":30.03,"precip_mm":0.0,"precip_in":0.0,"snow_cm":0.0,"humidity":71,"cloud":54,"feelslike_c":-0.7,"feelslike_f":30.7,"windchill_c":-0.7,"windchill_f":30.7,"heatindex_c":2.9,"heatindex_f":37.2,"dewpoint_c":-1.6,"dewpoint_f":29.1,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":11.4,"gust_kph":18.3,"uv":1.0,"short_rad":0.0,"diff_rad":0.0}]}]}}'
-  recorded_at: Wed, 17 Jan 2024 02:23:58 GMT
+  recorded_at: Wed, 17 Jan 2024 03:04:42 GMT
 recorded_with: VCR 6.2.0
