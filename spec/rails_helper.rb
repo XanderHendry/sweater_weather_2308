@@ -71,6 +71,7 @@ RSpec.configure do |config|
   end
   VCR.configure do |config|
     config.cassette_library_dir = 'spec/fixtures/vcr_cassettes'
+    config.default_cassette_options = { re_record_interval: 1.days}
     config.hook_into :webmock
     config.filter_sensitive_data('MAPQUEST_API_KEY') { Rails.application.credentials.mapquest_api[:key] }
     config.filter_sensitive_data('WEATHER_API_KEY') { Rails.application.credentials.weather_api[:key] }
