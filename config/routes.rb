@@ -9,6 +9,7 @@ Rails.application.routes.draw do
       get 'forecast', to: 'forecasts#by_city'
       resources :users, only: [:create]
       post 'sessions', to: 'sessions#create'
+      post 'road_trip', to: 'road_trips#create'
     end
   end
   # get '/api/v0/forecast', to: 'api/v0/forecasts#by_city'
